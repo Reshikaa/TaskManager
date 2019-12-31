@@ -7,4 +7,28 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:background="#2874A6"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10dp"
+        />
+
 </LinearLayout>
