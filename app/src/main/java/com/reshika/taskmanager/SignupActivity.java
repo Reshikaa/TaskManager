@@ -31,6 +31,7 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
+        ///BINDING
         imageView=findViewById(R.id.imageView);
         etFname=findViewById(R.id.etFname);
         etLname=findViewById(R.id.etLname);
