@@ -88,6 +88,7 @@ public class SignupActivity extends AppCompatActivity {
     }
 
     private void signup(){
+        ///declaration
         String fname= etFname.getText().toString();
         String lname= etLname.getText().toString();
         String username= etUser.getText().toString();
